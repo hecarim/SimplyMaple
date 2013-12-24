@@ -1,0 +1,1 @@
+SimplyMaple is a MapleStory website coded in PHP 5.5, HTML5, and CSS3.
