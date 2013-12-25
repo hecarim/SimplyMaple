@@ -1,0 +1,7 @@
+*:focus {outline: 0;}
+body {
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: Segoe UI;
+	color: #fff;
+}
