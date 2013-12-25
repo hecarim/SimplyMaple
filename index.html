@@ -3,84 +3,62 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <title>Simply Maple by Hexish</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/Hexish/SimplyMaple">View on GitHub</a>
-    <div class="shell">
+    <div id="container">
+      <div class="inner">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Simply Maple</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+        <header>
+          <h1>Simply Maple</h1>
+          <h2></h2>
+        </header>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/Hexish/SimplyMaple/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Hexish/SimplyMaple/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/Hexish/SimplyMaple/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/Hexish/SimplyMaple/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/Hexish/SimplyMaple" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
 
+        <hr>
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
+        <section id="main_content">
+          <h3>
 <a name="welcome-to-simply-maple" class="anchor" href="#welcome-to-simply-maple"><span class="octicon octicon-link"></span></a>Welcome to Simply Maple</h3>
 
-<p>Simply Maple is a MapleStory website/cms used for MapleStory Private Servers. This CMS includes a home, register, vote, downloads, donate, forums, and chat pages! Each page includes different content in the body of the page (AKA the base or center).</p>
+<p>Simply Maple is a Website/CMS for MapleStory. Our goal with this website is to create a new generation of MapleStory websites, for instance, this website is based off of the Metro theme, but edited to our liking, our design is mainly for the use of "Flat UI Colors", no 3D images, or anything special, just a very simplistic looking website. The website was coded in PHP, HTML5, CSS3, and some JS. Our main goal is just to make a very responsive website, there is not going to be any use of bootstrap nor Metro UI.</p>
 
 <hr><h3>
 <a name="the-design" class="anchor" href="#the-design"><span class="octicon octicon-link"></span></a>The Design</h3>
 
-<p>The design was made 100% with CSS3. (The background is a separate image). The design is based on a Metro Style, all of the colors make a very sleek looking Flat UI. The main colors are Black and White. With the background being a majestic colored forest.</p>
+<p>The design uses 100% CSS3, there are no images besides the background image. (That may change in the future). Our main goal is to make a flat, simplistic looking website, and make it look good at the same time. We use an opacity of "0.8" for each of the main containers (Navbar/Header, Body/Base, and Footer). There may be sidebars in the future.</p>
+
+<hr><h3>
+<a name="the-code" class="anchor" href="#the-code"><span class="octicon octicon-link"></span></a>The Code</h3>
+
+<p>The code is quite simple, just a very efficient use of PHP and HTML, along with CSS (we don't count css as code really because it's very simple). Our main goal of the code was to use the following for our pages, which makes it include our header/navbar, our footer, and our base/body:</p>
 
 <hr><h3>
 <a name="the-team" class="anchor" href="#the-team"><span class="octicon octicon-link"></span></a>The Team</h3>
 
-<p>Well, the only person on the team is the author of the website, SilentThief, AKA Hexish. This is a solo development.</p>
+<p>The team is quite small, well, it's only one person, and that's Hexish/SilentThief. He is the creator of this website. This is a solo development at the time, but may hire others to have small parts in this creation, this will not be a paying job.</p>
+        </section>
 
-<hr><h3>
-<a name="code" class="anchor" href="#code"><span class="octicon octicon-link"></span></a>Code</h3>
+        <footer>
+          Simply Maple is maintained by <a href="https://github.com/Hexish">Hexish</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
 
-<p>This site was coded with PHP, HTML5, CSS3, and JavaScript. The main point of the website code, is to make it clean and easy to read. This is a new experiment for the team, making it 100% more efficient.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/Hexish">Hexish</a> can be found on <a href="https://github.com/Hexish/SimplyMaple">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+        
+      </div>
     </div>
-
-    
   </body>
 </html>
