@@ -9,8 +9,9 @@ $host['password'] 		 = "";
 $host['database'] 		 = "Simply Maple";
 $serverip  		 		 = "127.0.0.1";
 $loginport 		 		 = "8484";
-$servername 			 = "Simply Maple";
+$servername 			 = "SimplyMaple";
 $webtitle 				 = "Simply Maple";
+$logo                    = "";
 $timezone       	     = "US/Central";
 
 

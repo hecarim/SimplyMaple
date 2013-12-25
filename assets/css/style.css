@@ -19,7 +19,11 @@ body {
 	word-spacing: 60px;
 }
 #body {
-
+	height: 700px;
+	width: 1000px;
+	background-color: black;
+	opacity: 0.9;
+	margin: 110px auto;
 }
 #footer {
 	height: 50px;
