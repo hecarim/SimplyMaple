@@ -5,3 +5,31 @@ body {
 	font-family: Segoe UI;
 	color: #fff;
 }
+#navbar {
+	height: 50px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 45px;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: 60px;
+}
+#body {
+
+}
+#footer {
+
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
