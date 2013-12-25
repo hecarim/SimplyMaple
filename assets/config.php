@@ -11,7 +11,7 @@ $serverip  		 		 = "127.0.0.1";
 $loginport 		 		 = "8484";
 $servername 			 = "SimplyMaple";
 $webtitle 				 = "Simply Maple";
-$logo                    = "";
+$forumurl				 = "";
 $timezone       	     = "US/Central";
 
 

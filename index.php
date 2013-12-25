@@ -21,7 +21,7 @@ switch ($page) {
 		break;
 	case "donate":
 		$getpage = "pages/donate";	
-		break;			
+		break;		
 	default:
 		$getpage = "pages/home";
 		break;

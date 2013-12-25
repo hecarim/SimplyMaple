@@ -12,7 +12,7 @@
 			<span><a href="?page=register">REGISTER</a></span>
 			<span><a href="?page=donate">DONATE</a><span>
 			<span><a href="?page=vote">VOTE</a></span>
-			<span><a href="?page=forum">FORUM</a></span>
+			<span><a href= "<?php echo $forumurl ?>">FORUM</a></span>
 			<span><a href="?page=chat">CHAT</a></span>
 		</div>
 </html>

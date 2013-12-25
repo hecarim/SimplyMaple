@@ -1,9 +1,9 @@
 *:focus {outline: 0;}
 body {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
+	background-color: white;
 	background-size: cover;
 	font-family: Segoe UI;
-	color: #fff;
+	color: white;
 }
 #navbar {
 	height: 50px;
@@ -11,8 +11,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background-color: black;
-	opacity: 0.8;
+	background-color: #4390DF;
 	line-height: 45px;
 	text-align: center;
 	vertical-align: middle;
@@ -21,8 +20,7 @@ body {
 #body {
 	height: 700px;
 	width: 1000px;
-	background-color: black;
-	opacity: 0.9;
+	background-color: #4390DF;
 	margin: 110px auto;
 }
 #footer {
@@ -31,8 +29,7 @@ body {
 	bottom: 0;
 	left: 0;
 	position: fixed;
-	background-color: black;
-	opacity: 0.8;
+	background-color: #4390DF;
 	line-height: 15px;
 	text-align: center;
 	vertical-align: middle;
@@ -43,6 +40,6 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #fff;
+	color: white;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
