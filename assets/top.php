@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 		<div id="navbar">
-		    <span style="float: left; margin-left: 10px;"><?php echo $servername ?></span>
+		    <span style="float: left; margin-left: 10px; word-spacing: 0;"><?php echo $servername ?></span>
 			<span><a href="?page=home">HOME</a></span>
 			<span><a href="?page=downloads">DOWNLOAD</a></span>
 			<span><a href="?page=register">REGISTER</a></span>
