@@ -34,12 +34,41 @@ body {
 	text-align: center;
 	vertical-align: middle;
 }
+.registerbtn {
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.1);
+	height: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	width: 180px;
+	padding-left: 10px;
+	color: #fff;
+	-webkit-transition: all 0.30s linear;
+	-moz-transition: all 0.30s linear;
+	-ms-transition: all 0.30s linear;
+	-o-transition: all 0.30s linear;
+}
+.input {
+	background: rgba(0, 0, 0, 0.1);
+	height: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	width: 180px;
+	padding-left: 10px;
+	color: #fff;
+	-webkit-transition: all 0.30s linear;
+	-moz-transition: all 0.30s linear;
+	-ms-transition: all 0.30s linear;
+	-o-transition: all 0.30s linear;
+}
+.input:focus {
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
 a {
 	color: white;
 	text-decoration: none;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: white;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+	color: #fff;  
+    text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;  
 }
