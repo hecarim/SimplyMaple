@@ -31,9 +31,7 @@
         }
     ?>
     <div id="body">
-    <h1 style="text-align: center; line-height: 50px">Register</h1>
-    <hr>
-<form action="?page=register" method="POST" autocomplete="off" style="text-align: center; margin-top: 200px">
+<form action="?page=register" method="POST" autocomplete="off" id="form">
 	<input type="text" name="username" maxlength="12" required autocomplete="off" placeholder="Username" class="input"><br/>
 	<input type="password" name="password" maxlength="30" required autocomplete="off" placeholder="Password" class="input"><br/>
 	<input type="password" name="cpassword" maxlength="30" required autocomplete="off" placeholder="Verify Password" class="input"><br/>

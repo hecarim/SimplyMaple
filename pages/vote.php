@@ -88,7 +88,7 @@
 <p>We track all votes, do not misuse this system or you will be permantly banned.</p>
 <br/>
 <br/><input type="text" name="name" class="input" placeholder="Account Username" required/>
-<input type="submit" id="be_banned"  class="vote btn" onClick="javascript:ajaxFunction();" name="doVote" value="Vote" class="doVote">
+<input type="submit" id="be_banned"  class="votebtn" onClick="javascript:ajaxFunction();" name="doVote" value="Vote" class="doVote" style="margin-top: 5px;">
 <input type="hidden" name="doVote" value="1">
 </form>
 </div>
