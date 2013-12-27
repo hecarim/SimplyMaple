@@ -78,7 +78,7 @@
 <div id="body">
 <form action="?page=vote" method="POST">
 <center>
-<div id="message-yellow">Not interested in any rewards, but still wanna vote? <a href="<?php echo $gtop ?>" target="_blank">Click Here</a></div><br />
+<div>Not interested in any rewards, but still wanna vote? <a href="<?php echo $gtop ?>" target="_blank">Click Here</a></div><br/>
 
 <font color="red"><strong>Please Read Before Voting:</strong></font> 
 <p>You can only vote 1 time every 6 hours for 1 Vote Point.</p>
@@ -87,7 +87,7 @@
 <p>After clicking vote, fill in the Captcha, or you won't receive your prize for voting.</p>
 <p>We track all votes, do not misuse this system or you will be permantly banned.</p>
 <br/>
-<br/><input type="text" name="name" class="input" placeholder="Account Username" required/>
+<br/><input type="text" name="name" class="input" placeholder="Account Username" required style="top: 0px"/>
 <input type="submit" id="be_banned"  class="votebtn" onClick="javascript:ajaxFunction();" name="doVote" value="Vote" class="doVote" style="margin-top: 5px;">
 <input type="hidden" name="doVote" value="1">
 </form>

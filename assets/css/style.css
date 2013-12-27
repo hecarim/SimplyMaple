@@ -8,16 +8,17 @@ body {
 	color: white;
 }
 #navbar {
-	height: 50px;
+	font-size: 14px;
+	height: 40px;
 	width: 100%;
 	top: 0;
 	left: 0;
 	position: fixed;
 	background-color: #3399FF;
-	line-height: 45px;
+	line-height: 40px;
 	text-align: center;
 	vertical-align: middle;
-	word-spacing: 60px;
+	word-spacing: 40px;
 }
 #body {
 	height: 700px;
@@ -36,9 +37,32 @@ body {
 	text-align: center;
 	vertical-align: middle;
 }
+.input {
+	display: block;
+	top: 150px;
+	position: relative;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.1);
+	height: 50px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	width: 500px;
+	padding-left: 10px;
+	color: #fff;
+	-webkit-transition: all 0.30s linear;
+	-moz-transition: all 0.30s linear;
+	-ms-transition: all 0.30s linear;
+	-o-transition: all 0.30s linear;
+}
+.input:focus {
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.7);
+}
 .registerbtn {
+	display: block;
+	top: 170px;
+	position: relative;
 	cursor: pointer;
-	margin-left: 25%;
+	margin: 0 auto;
 	background: rgba(0, 0, 0, 0.1);
 	height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -62,22 +86,6 @@ body {
 	-moz-transition: all 0.30s linear;
 	-ms-transition: all 0.30s linear;
 	-o-transition: all 0.30s linear;
-}
-.input {
-	background: rgba(0, 0, 0, 0.1);
-	height: 50px;
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	width: 990px;
-	padding-left: 10px;
-	color: #fff;
-	-webkit-transition: all 0.30s linear;
-	-moz-transition: all 0.30s linear;
-	-ms-transition: all 0.30s linear;
-	-o-transition: all 0.30s linear;
-}
-.input:focus {
-	background: rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.7);
 }
 a {
 	color: white;
