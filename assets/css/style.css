@@ -3,7 +3,6 @@
 }
 body {
 	background-color: white;
-	background-size: cover;
 	font-family: Segoe UI;
 	color: white;
 }
@@ -13,7 +12,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	position: fixed;
+	position: absolute;
 	background-color: #3399FF;
 	line-height: 40px;
 	text-align: center;
@@ -21,19 +20,19 @@ body {
 	word-spacing: 40px;
 }
 #body {
+	color: gray;
 	height: 700px;
-	width: 1000px;
-	background-color: #3399FF;
+	width: 900px;
 	margin: 110px auto;
 }
 #footer {
-	height: 50px;
+	height: 40px;
 	width: 100%;
 	bottom: 0;
 	left: 0;
-	position: fixed;
+	position: absolute;
 	background-color: #3399FF;
-	line-height: 15px;
+	line-height: 10px;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -47,7 +46,7 @@ body {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	width: 500px;
 	padding-left: 10px;
-	color: #fff;
+	color: gray;
 	-webkit-transition: all 0.30s linear;
 	-moz-transition: all 0.30s linear;
 	-ms-transition: all 0.30s linear;
@@ -68,24 +67,31 @@ body {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	width: 500px;
 	padding-left: 10px;
-	color: #fff;
+	color: gray;
 	-webkit-transition: all 0.30s linear;
 	-moz-transition: all 0.30s linear;
 	-ms-transition: all 0.30s linear;
 	-o-transition: all 0.30s linear;
 }
 .votebtn {
+	display: block;
+	top: 150px;
+	position: relative;
+	margin: 0 auto;
 	cursor: pointer;
 	background: rgba(0, 0, 0, 0.1);
 	height: 50px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	width: 500px;
 	padding-left: 10px;
-	color: #fff;
+	color: gray;
 	-webkit-transition: all 0.30s linear;
 	-moz-transition: all 0.30s linear;
 	-ms-transition: all 0.30s linear;
 	-o-transition: all 0.30s linear;
+}
+h1 {
+	text-align: center;
 }
 a {
 	color: white;
