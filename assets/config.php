@@ -6,7 +6,7 @@ if(basename($_SERVER["PHP_SELF"]) == "config.php"){
 $host['hostname'] 		 = "localhost";
 $host['user'] 	  		 = "root";
 $host['password'] 		 = "";
-$host['database'] 		 = "v142";
+$host['database'] 		 = "Simply Maple";
 $serverip  		 		 = "127.0.0.1";
 $loginport 		 		 = "8484";
 $servername 			 = "Simply Maple";
